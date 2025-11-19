@@ -26,6 +26,7 @@ let newSpendings = [{tag: "groceries", amount: 0},
     {tag: "hygiene", amount: 0},
     {tag: "education", amount: 0}, 
     {tag: "office", amount: 0},
+    {tag: "house", amount: 0}
 ];
 spendingData.forEach((item) => {
     if(item.tag ==="groceries"){
@@ -34,8 +35,12 @@ spendingData.forEach((item) => {
         newSpendings[1].amount += item.amount;
     }else if (item.tag === "education"){
         newSpendings[2].amount += item.amount;
+    }else if (item.tag === "office"){
+      newSpendings[3].amount += item.amount;
+    }else if (item.tag ==="house"){
+      newSpendings[4].amount += item.amount;
     }else{
-        newSpendings[3].amount += item.amount
+      newSpendings[5].amount += item.amount;
     }
 });
 

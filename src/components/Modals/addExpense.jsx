@@ -65,7 +65,8 @@ function AddExpenseModal({isExpenseModalVisible, handleExpenseCancel, onFinish})
                                   <Select.Option value="groceries">Groceries</Select.Option>
                                   <Select.Option value="hygiene">Hygiene</Select.Option>
                                   <Select.Option value="office">Office</Select.Option>
-                                  <Select.Option value="educatin">Education</Select.Option>
+                                  <Select.Option value="education">Education</Select.Option>
+                                   <Select.Option value="house">House</Select.Option>
                               </Select>
             </Form.Item>
         <Form.Item>

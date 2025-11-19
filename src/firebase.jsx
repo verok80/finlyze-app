@@ -4,8 +4,7 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore, doc, setDoc} from 'firebase/firestore';
 
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+//  Web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAXvc9akRiO5yBfJq6fv4G0HXy2keTuKUM",
   authDomain: "financely-rec-a42ab.firebaseapp.com",
