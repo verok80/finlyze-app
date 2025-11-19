@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
-import Input from '../input';
+import Input from '../Input';
 import Button from '../Button';
 import { createUserWithEmailAndPassword,
          signInWithEmailAndPassword,
